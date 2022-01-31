@@ -1,0 +1,9 @@
+compile command:
+	gcc -o lru-vs-opt lru-vs-opt.c
+
+run command:
+	./lru-vs-opt
+
+This program takes no command line arguments.
+
+The program asks the user to enter a number between 1 and 9. It then uses this input to determine the number of frames to simulate. The program then generates a pseudo random sequece of 20 numbers between 1 and 5 to simulate page faults using LRU and OPT page replacement algorithms. The program then generates a report of how many pagefaults happened and prints a table showing the page table at each step and where the faults happened.
